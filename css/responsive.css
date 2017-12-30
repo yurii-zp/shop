@@ -1,0 +1,422 @@
+@media screen and (max-width: 991px) {
+	/*== Header & Footer ==*/
+	.logo {
+		width: 210px;
+		height: 50px;
+		margin-top: 5px;
+		background-size: contain;
+	}
+	.main_navigation li {
+		margin-right: 0;
+	}
+
+	/*== Catalog & Single item pages ==*/
+	.range_wrap input[type=text] {
+		width: calc(100% - 72px);
+	}
+	.range_wrap button {
+		min-width: auto;
+	}
+
+	.item_block {
+		font-size: inherit;
+	}
+	.comment_block {
+		width: 80%;
+	}
+	.comment div {
+		right: -25%;
+	}
+
+	/*== Cart & Profile pages ==*/
+	.cart_block .table > tbody > tr > th:last-child,
+	.cart_block .table > tbody > tr > td:last-child {
+		width: 90px;
+	}
+	.cart_block .table .btn {
+		width: 93px;
+	}
+	.cart_block .table .btn + .btn {
+		margin: 8px 0 0;
+	}
+
+	.profile_block {
+		width: 85%;
+	}
+
+	/*== Admin page ==*/
+	.item_tab input[type=number],
+	.modal .row .input-group {
+		margin-bottom: 15px;
+	}
+	.item_tab .table_scrolling {
+		width: 435px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*== Navigation ==*/
+	.mob_btn,
+	.mob_close_btn {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		margin: 10px 0 0 30px;
+		vertical-align: middle;
+		background: url(../images/layout/mob_btn_sprite.png) no-repeat;
+	}
+	.mob_close_btn {
+		margin: 0;
+		background-position: top right;
+		float: right;
+	}
+	.mob_btn:hover {
+		background-position: left bottom;
+	}
+	.mob_close_btn:hover {
+		background-position: bottom right;
+	}
+
+	.navigation_wrap {
+		position: fixed;
+		top: 0;
+		right: -80px;
+		width: 0;
+		height: 100%;
+		margin-top: 0;
+		padding: 25px 35px 20px;
+		text-align: left;
+		font-size: 18px;
+		box-shadow: -1px 0 8px -2px #000;
+		background-color: #082448;
+		z-index: 35;
+	}
+	.main_navigation {
+		width: 210px;
+	}
+	.main_navigation ul {
+		clear: both;
+	}
+	.main_navigation li {
+		display: block;
+		border-bottom: 1px solid #fff;
+	}
+	.main_navigation a {
+		display: block;
+		white-space: nowrap;
+		color: #fff;
+	}
+	.main_navigation input {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		border: none;
+		text-transform: uppercase;
+		text-align: left;
+		letter-spacing: 2px;
+		font-size: 16px;
+		font-family: 'SourceSansPro-Bold';
+		color: #fff;
+		background-color: inherit;
+	}
+	.main_navigation input:hover {
+		color: #ef272a;
+	}
+	.header {
+		height: 85px;
+	}
+	.header_wrap {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 35;
+	}
+
+	/*== Main ==*/
+	body.device {
+		overflow: hidden;
+	}
+	.modal .modal-dialog {
+		width: auto;
+		max-width: 600px;
+	}
+	.table-responsive,
+	.catalog > div:last-child {
+		margin-bottom: 0;
+	}
+	.table-responsive th,
+	.table-responsive td {
+		white-space: normal !important;
+	}
+	.nth_padding > div:first-child,
+	.nth_padding > div:last-child {
+		padding: 0;
+	}
+
+	/*== Homepage ==*/
+	.cart {
+		margin-top: 10px;
+	}
+	.reg_box,
+	.profile {
+		display: none;
+	}
+	.avatar {
+		display: inline-block;
+		margin: 0 0 10px;
+	}
+
+	.banner_wrap {
+		padding-left: 30px;
+	}
+	.banner_text {
+		width: 350px;
+	}
+	.banner_text h2 {
+		font-size: 36px;
+	}
+
+	/*== Catalog & Single item pages ==*/
+	.catalog > div:nth-last-child(-n + 3) {
+		margin-bottom: 45px;
+	}
+	.range_wrap {
+		margin: 20px 0;
+	}
+
+	.item_block > div {
+		padding: 0 !important;
+		float: none;
+	}
+	.comment_block,
+	.item_tab .table_scrolling {
+		width: 100%;
+	}
+	.comment div {
+		position: static;
+	    margin-top: 10px;	
+	}
+
+	/*== Cart & Profile pages ==*/
+	.cart_block .table,
+	.archive_block .table {
+		width: 735px;
+	}
+	.cart_block .table img {
+		width: 170px;
+		height: 170px;
+	}
+
+	.profile_block form img {
+		width: 160px;
+	}
+	.profile_block .uploader_wrap {
+		display: block;
+		margin: 15px auto 10px;
+	}
+	.profile_block .table tr > *:last-child {
+		width: 100px;
+	}
+	.profile_block .btn:first-child {
+		margin-left: 0;
+	}
+
+	/*== Admin page ==*/
+	.cat_tab input[type=search],
+	.item_tab input[type=search] {
+		width: 40%;
+		margin-top: 15px;
+	}
+	.item_tab tr > *:last-child {
+    	width: 116px;
+	}
+	.user_tab .table_scrolling {
+		width: 680px;
+	}
+	.user_tab input[type=search] {
+		width: 40%;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/*== Main ==*/
+	section {
+		padding: 25px 0;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+
+	/*== Homepage ==*/
+	.main_content .container {
+		padding: 0 15px;
+	}
+	.main_content .catalog > div:not(:last-child) {
+		margin-bottom: 35px;
+	}
+	.main_content .catalog h3 {
+		margin: 10px 0 0;
+	}
+
+	/*== Catalog & Single item pages ==*/
+	.catalog_block {
+		margin: 0;
+	}
+	.comment_block form .col-xs-8,
+	.comment_block form .col-xs-4,
+	.profile_block {
+		width: 100%;
+	}
+	.comment_block form .col-xs-4 {
+		margin-top: 15px;
+		text-align: left;
+	}
+	.catalog > div {
+		display: block;
+		width: 76%;
+		margin: 0 auto 45px;
+	}
+	.catalog h3. {
+		margin: 10px 0;
+	}
+	.catalog h4 {
+		min-height: auto;
+		margin: 0 auto 10px;
+	}
+	.range_wrap > div:first-child {
+		width: 100%;
+		margin-bottom: 30px;
+		float: none;
+	}
+	.range_wrap > div:last-child {
+		width: 50%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	/*== Cart & Admin pages ==*/
+	.cart_block .nth_padding > div {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.cart_block .nth_padding h2 {
+		margin: 0 0 15px;
+		text-align: center;	
+	}
+
+	.item_tab .table_scrolling {
+		width: 515px;
+	}
+	.item_tab .ck-editor {
+		width: 100%;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	/*== Homepage ==*/
+	.banner_wrap {
+		padding: 0 15px;
+	}
+	.banner_text {
+		width: 100%;
+		text-align: center;
+	}
+	.banner_text ul {
+		display: inline-block;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	/*== Catalog & Single item & Profile pages ==*/
+	.cat_wrap label {
+		width: 33.33%;
+		margin: 0;
+		padding: 7px 0;
+	}
+	.cat_wrap label + div {
+		padding-right: 0;
+	}
+	.range_wrap > div:last-child {
+		width: 60%;
+	}
+
+	.comment h4 {
+		display: block;
+	    margin-top: 10px;
+	}
+
+	.profile_block table {
+		width: 447px;
+	}
+
+	/*== Admin page ==*/
+	.ui-tabs .ui-tabs-panel {
+    	padding: 10px;
+	}
+	.cat_tab input[type=search],
+	.item_tab input[type=search],
+	.user_tab input[type=search] {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	/*== Header & Footer ==*/
+	.main_wrap {
+		min-height: auto;
+		padding-bottom: 0;
+	}
+	.header {
+		height: 80px;
+	}
+	.header_wrap {
+		padding: 15px;
+	}
+	.logo {
+		width: 160px;
+		height: 38px;
+		margin-top: 6px;
+	}
+	.mob_btn {
+		margin: 10px 0 0 20px;
+	}
+	.footer {
+		height: auto;
+		margin-top: 0;
+		padding: 15px 0;
+	}
+	.footer span > span {
+		display: block;
+	}
+
+	/*== Homepage ==*/
+	.cart {
+		width: 40px;
+		height: 33px;
+		background-size: contain;
+	}
+
+	/*== Catalog & Admin pages ==*/
+	.catalog > div {
+		width: 85%;
+	}
+	.range_wrap > div:last-child {
+		width: 80%;
+	}
+
+	.item_tab button[type=submit],
+	#upd_modal button[type=submit] {
+		display: block;
+    	margin-top: 10px;
+	}
+	#upd_modal button[type=submit] {
+		float: right;
+	}
+}
